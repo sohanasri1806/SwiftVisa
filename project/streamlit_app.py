@@ -1,6 +1,6 @@
 #final version of streamlit app
 import streamlit as st
-from new_rag_pipeline import run_rag_pipeline 
+from rag1 import run_rag_pipeline 
 from datetime import date, datetime
 
 # =========================
