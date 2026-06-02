@@ -71,3 +71,17 @@ SwiftVisa currently supports five UK visa categories:
 | Deployment       | Streamlit Cloud                          |
 
 ---
+
+## Screenshots
+<img width="846" height="593" alt="image" src="https://github.com/user-attachments/assets/08309d8a-0862-4066-8c2a-64c6a5d50dff" />
+<img width="520" height="605" alt="image" src="https://github.com/user-attachments/assets/30e11d4b-72b5-48fa-bfb7-258d61e69744" />
+<img width="595" height="549" alt="image" src="https://github.com/user-attachments/assets/ff241b1a-5b1a-4aa1-bbbd-27e85ffc9b9c" />
+<img width="749" height="407" alt="image" src="https://github.com/user-attachments/assets/ad3527d5-5d55-490a-a5c1-2e7673ac11ec" />
+<img width="370" height="463" alt="image" src="https://github.com/user-attachments/assets/e45e00d1-9b81-4d10-92fc-b831ead00a09" />
+<img width="393" height="655" alt="image" src="https://github.com/user-attachments/assets/92b758fe-c91c-49c1-9b8c-e82d58aedd46" />
+
+
+
+
+
+
