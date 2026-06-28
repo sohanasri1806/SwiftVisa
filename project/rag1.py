@@ -20,11 +20,11 @@ collection = client.get_or_create_collection(name="swiftvisa_embeddings")
 
 # 🔹 ADDED: RULE + BERT + ROUGE CONFIDENCE
 def calculate_confidence(context, explanation, satisfied, unsatisfied):
-    # Rule matching (50%)
+    # Rule matching (70%)
     total = len(satisfied) + len(unsatisfied)
     rule_score = (len(satisfied) / total) if total > 0 else 0.5
 
-    # BERT F1 (30%)
+    # BERT F1 (15%)
     if explanation.strip():
         _, _, bert_f1 = bert_score(
             [explanation],
@@ -36,7 +36,7 @@ def calculate_confidence(context, explanation, satisfied, unsatisfied):
     else:
         bert_f1 = 0.0
 
-    # ROUGE-L F1 (20%)
+    # ROUGE-L F1 (15%)
     rouge = rouge_scorer.RougeScorer(["rougeL"], use_stemmer=True)
     rouge_l = rouge.score(context, explanation)["rougeL"].fmeasure
 
